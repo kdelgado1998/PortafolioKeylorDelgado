@@ -7,13 +7,13 @@ export const Footer = () => {
     return (
         <>
 
-            <footer className="container py-5 flex justify-center">
-                <div className="row flex gap-x-56">
+            <footer className="footer">
+                <div className='footer-grid'>
                     <div className="col-md-6">
-                        <nav className="nav footer justify-content-center justify-content-md-start">
-                            <a className="nav-link m-3" href="/AboutMe">About Me</a>
-                            <a className="nav-link m-3" href="/Projects">My Projects</a>
-                            <a className="nav-link m-3" href="/ContactMe">Contact Me </a>
+                        <nav className="nav ml-9">
+                            <a className="nav-link m-1" href="/AboutMe">About Me</a>
+                            <a className="nav-link m-1" href="/Projects">My Projects</a>
+                            <a className="nav-link m-1" href="/ContactMe">Contact Me </a>
                         </nav>
                         
                     </div>

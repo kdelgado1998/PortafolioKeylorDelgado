@@ -6,10 +6,10 @@ export const ContactMe = () => {
       <h1 className='flex justify-center mb-8'>ContactMe</h1>
 
 
-      <div className="container flex justify-center my-12">
+      <div className="flex justify-center">
         <div >
 
-          <div className=''>
+          <div className='contenido-contactMe'>
             <h1>Hi!</h1>
             <p>
               I am open for any feedback or suggestion related to this site.
