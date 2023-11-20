@@ -45,8 +45,7 @@ export const Projects = ({ proyecto, setProyecto, proyectos, setProyectos }) => 
                     <hr />
                   </div>
                 </div>
-<<<<<<< HEAD
-=======
+
                 <p className='font-bold text-lg bg-gray-200 px-4 py-2 mt-4 rounded-lg shadow-xl text-opacity-70 mx-96 text-center'>{project.descripcion}</p>
 
                 <div className='flex justify-center'>
