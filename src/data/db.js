@@ -1,5 +1,12 @@
 export const db = [
     {
+        id: 12,
+        nombre: 'PlanificadorDeGastosReact',
+        imagen: 'planificadorGastosReact',
+        descripcion: 'This project contains all the functions of a CRUD in JS that allows you to enter, modify or delete an expense using React as a framework, in addition, we implement a dynamic graph that is updated every time the state of each expense undergoes some modification, they also contain a swap to modify or delete elements.',
+        link: 'https://startling-puppy-48ab46.netlify.app/',
+    },
+    {
         id: 1,
         nombre: 'Guitar LA',
         imagen: 'guitarLA',
