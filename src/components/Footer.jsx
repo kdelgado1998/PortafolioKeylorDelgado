@@ -9,7 +9,7 @@ export const Footer = () => {
 
             <footer className="footer">
                 <div className='footer-grid'>
-                    <div className="col-md-6">
+                    <div className="">
                         <nav className="nav ml-9">
                             <a className="nav-link m-1" href="/AboutMe">About Me</a>
                             <a className="nav-link m-1" href="/Projects">My Projects</a>
@@ -17,7 +17,7 @@ export const Footer = () => {
                         </nav>
                         
                     </div>
-                    <div className="col">
+                    <div className="">
                         <p className="copyright text-center text-md-right">
                         All rights reserved - <span className='text-gray-400'>{annoActual}</span>
                         </p>

@@ -9,7 +9,7 @@ export const Slider = () => {
                 <h1>Developer</h1>
             </div>
 
-            <div className='mx-8'>
+            <div>
                 <div>
                     <h1 className="titulo">About me</h1>
                 </div>
@@ -21,12 +21,12 @@ export const Slider = () => {
                         <p>My experience spans various projects throughout my academic career, where I've honed my skills in both front-end and back-end development. I thrive in collaborative team environments, believing that the best results are achieved through collective efforts. I am dedicated and always strive to give my best in every adventure.</p>
                         <p>I currently work at the company Align Technology as a specialist cad designer and I would like to get into the programming environment from now on to go deeper into the world of digital creation and expand my knowledge in these topics, since I really like design and everything that goes with it.</p>
 
-                        <div className=''>
-                            
-                                <img className='descuento2' src="/img/aboutme1.jpg" alt="sitio logo" />
+                        <div>
 
-                            <div className='col-6'>
-                                <p className='ml-16 '>My aspiration is to immerse myself further in the technology sector, leveraging my creativity and expertise to create user-friendly, aesthetically pleasing software solutions. I am excited about the opportunity to collaborate, learn, and contribute to innovative projects within this dynamic industry.</p>
+                            <img className='img-aboutMe' src="/img/aboutme2.jpg" alt="sitio logo" />
+
+                            <div className=''>
+                                <p className=''>My aspiration is to immerse myself further in the technology sector, leveraging my creativity and expertise to create user-friendly, aesthetically pleasing software solutions. I am excited about the opportunity to collaborate, learn, and contribute to innovative projects within this dynamic industry.</p>
                             </div>
 
                         </div>

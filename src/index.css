@@ -22,10 +22,39 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
+body,a,p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 2;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 6rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Staatliches', cursive;
+    color: #15B9D5;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
 }
 
 h1,
@@ -167,6 +196,14 @@ body.index .navegacion {
 .flex-links {
   display: flex;
   align-items: end;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .flex-links {
+    justify-content: end;
+    align-items: end;
+  }
 }
 
 .img-header {
@@ -223,9 +260,30 @@ footer .nav a,
   margin-top: 2rem;
 }
 
-.footer-grid a {
-  margin: 2rem 2rem;
+@media (min-width: 768px) {
+  .footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  a,
+  p {
+    font-size: 2.5rem;
+  }
 }
+
+@media (min-width: 768) { 
+  .footer-grid a {
+    margin: 2rem 2rem;
+  }
+}
+
+.footer-grid a {
+  margin: 1rem 1rem;
+}
+
+
 
 /* .footer-grid {
   display: grid;
@@ -320,7 +378,15 @@ footer .nav a,
   justify-content: center;
 }
 
-@media (min-width: 768px) { 
+.img-aboutMe {
+  height: 30rem;
+  width: 27rem;
+  margin: 0 auto;
+  object-fit: cover;
+
+}
+
+@media (min-width: 768px) {
   .amoutMe {
     display: flex;
     gap: 1rem;
@@ -330,9 +396,12 @@ footer .nav a,
     display: flex;
     gap: 5rem;
   }
-  .img-aboutMe {
 
+  .img-aboutMe {
+    height: 60rem;
+    width: 60rem;
   }
+
 }
 
 .contenedor-sobreMi p {
@@ -346,6 +415,43 @@ footer .nav a,
   grid-template-columns: repeat(2, 1fr);
 }
 
+.parrafo-aboutMe{
+
+}
+
+.parrafo-color {
+ margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .contenido-sobreMi {
+    margin-left: 4rem;
+  }
+
+  .grid-aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-aboutMe:nth-child(1) p {
+    grid-column: 1 / 4;
+  }
+
+  .parrafo-aboutMe{
+    margin-top: 7rem;
+  }
+
+  .amoutMe2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+
+
 .img-sobreMi {
   display: flex;
   flex-direction: column;
@@ -357,12 +463,6 @@ footer .nav a,
   height: 155px;
 }
 
-.img-aboutMe {
-  height: 30rem;
-  width: 27rem;
-  margin: 0 auto;
-  object-fit: cover;
 
-}
 
 /* Contact Me */
